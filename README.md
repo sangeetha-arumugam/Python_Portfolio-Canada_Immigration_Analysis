@@ -25,11 +25,11 @@ Option 2: And, also the dataset can be found on [IBM](https://www.coursera.org/l
 
 **Tools and Technologies** 
 
-•	Programming Language: Python
+• Programming Language: Python
 
-•	Libraries: NumPy, Pandas, Matplotlib
+• Libraries: NumPy, Pandas, Matplotlib
 
-•	Environment: Anaconda - Jupyter Notebook
+• Environment: Anaconda - Jupyter Notebook
 
 ## Data Cleaning and Preparation
 ### 1. Import Dataset Using Pandas
@@ -37,129 +37,129 @@ Option 2: And, also the dataset can be found on [IBM](https://www.coursera.org/l
 	The dataset containing details about immigration to Canada is imported into the environment using the Pandas library. This step involves reading the data from a CSV file and loading it into a Pandas DataFrame for further processing.
 ### 2. Data Wrangling.
 
-	**Data Cleaning:**
+**Data Cleaning:**
 
-o	Handling missing or incomplete data by filling or removing null values.
+o Handling missing or incomplete data by filling or removing null values.
 
-o	Ensuring data consistency by correcting data types and standardizing categorical data.
+o Ensuring data consistency by correcting data types and standardizing categorical data.
 
-o	Removing duplicate entries to maintain data integrity.
+o Removing duplicate entries to maintain data integrity.
 
-	**Feature Engineering:**
+**Feature Engineering:**
 
-o	Creating new columns or modifying existing ones to better represent the data, such as aggregating data over specific time periods or categorizing countries into regions.
+o Creating new columns or modifying existing ones to better represent the data, such as aggregating data over specific time periods or categorizing countries into regions.
 
-	**Data Transformation:**
+**Data Transformation:**
 
-o	Encoding categorical variables where necessary.
+o Encoding categorical variables where necessary.
 
-o	Normalizing or scaling numerical features to standardize the data for analysis.
+o Normalizing or scaling numerical features to standardize the data for analysis.
 
 ### 3. Exploratory Data Analysis (EDA) and Pandas Intermediate
 
-	**Indexing and Selection (Slicing):**
+**Indexing and Selection (Slicing):**
 
-o	Using advanced indexing and slicing techniques in Pandas to access specific subsets of the data. This includes selecting rows and columns based on labels, indices, and conditions.
+o Using advanced indexing and slicing techniques in Pandas to access specific subsets of the data. This includes selecting rows and columns based on labels, indices, and conditions.
 
-	**Filtering Based on a Criteria:**
+**Filtering Based on a Criteria:**
 
-o	Filtering data based on specific criteria, such as selecting records for certain years, countries, or regions. This helps in focusing the analysis on particular aspects of the data.
+o Filtering data based on specific criteria, such as selecting records for certain years, countries, or regions. This helps in focusing the analysis on particular aspects of the data.
 
-	**Sorting Values:**
+**Sorting Values:**
 
-o	Sorting the Data Frame or Series by one or multiple columns to identify trends and patterns. For example, sorting immigration numbers in descending order to identify top source countries.
+o Sorting the Data Frame or Series by one or multiple columns to identify trends and patterns. For example, sorting immigration numbers in descending order to identify top source countries.
 
 ### 4. Visualizing Data Using Matplotlib
 
-	**Basic Plotting:**
+**Basic Plotting:**
 	
-o	Creating various types of plots such as line plots, bar charts, and histograms to visualize trends and distributions in the data. These visualizations help in understanding the temporal and geographical patterns of immigration.
+o Creating various types of plots such as line plots, bar charts, and histograms to visualize trends and distributions in the data. These visualizations help in understanding the temporal and geographical patterns of immigration.
 
-	**Advanced Plotting:**
+**Advanced Plotting:**
 	
-o	Customizing plots with titles, labels, legends, and color schemes to enhance clarity and presentation. This includes setting plot styles and adjusting figure sizes for better visual appeal.
+o Customizing plots with titles, labels, legends, and color schemes to enhance clarity and presentation. This includes setting plot styles and adjusting figure sizes for better visual appeal.
 
 ### 5. Plotting in Pandas
 
-•	Utilizing Pandas' built-in plotting capabilities to quickly generate visualizations directly from DataFrames. This includes:
+• Utilizing Pandas' built-in plotting capabilities to quickly generate visualizations directly from DataFrames. This includes:
 
-o	Line Plots: To show changes in immigration trends over time.
+o Line Plots: To show changes in immigration trends over time.
 
-o	Bar Plots: To compare immigration numbers across different countries or regions.
+o Bar Plots: To compare immigration numbers across different countries or regions.
 
-o	Histograms: To display the distribution of immigration numbers.
+o Histograms: To display the distribution of immigration numbers.
 
 ## Data Analysis & Key Findings
 ### Plotting in pandas
-•	**Plot a line graph of immigration from Haiti.**
+• **Plot a line graph of immigration from Haiti.**
 
-		**Insight:** We can clearly notice how number of immigrants from Haiti spiked up from 2010 as Canada stepped up its efforts to accept refugees from Haiti. 
+**Insight:** We can clearly notice how number of immigrants from Haiti spiked up from 2010 as Canada stepped up its efforts to accept refugees from Haiti. 
 
 ![Alternative Text](assets/images/Findings Q1.png)
 
-•	**Comparing the number of immigrants from India and China from 1980 to 2013.**   
+• **Comparing the number of immigrants from India and China from 1980 to 2013.**   
 
-		**Insight:** We can observe that the China and India have very similar immigration trends through the years.
+**Insight:** We can observe that the China and India have very similar immigration trends through the years.
 
 ![Alternative Text](assets/images/Findings Q2.png)  
 
-•	**Comparing the trend of top 5 countries that contributed the most to immigration to Canada.**   
+• **Comparing the trend of top 5 countries that contributed the most to immigration to Canada.**   
 
-		**Insight:** Immigration from India and Philippines is still increasing, followed by china where as immigration from UK and Pakistan is ceasing.
+**Insight:** Immigration from India and Philippines is still increasing, followed by china where as immigration from UK and Pakistan is ceasing.
 
 ![Alternative Text](assets/images/Findings Q3.png)  
 
-•	**Comparing the trend of last 5 countries that immigration to Canada using area plot.**   
+• **Comparing the trend of last 5 countries that immigration to Canada using area plot.**   
 
-		**Insight:** We can see that San Marino, New Caledonia, Marshall Islands, Western Sahara, and Palau are the least contributing countries.
+**Insight:** We can see that San Marino, New Caledonia, Marshall Islands, Western Sahara, and Palau are the least contributing countries.
 		
 ![Alternative Text](assets/images/Findings Q4.png) 
 
-•	**Finding the frequency distribution of the number (population) of new immigrants from the various countries to Canada in 2013.**   
+• **Finding the frequency distribution of the number (population) of new immigrants from the various countries to Canada in 2013.**   
 
-		**Insight:** Maximum frequency distribution of the number (population) in range 0 to 3413.
+**Insight:** Maximum frequency distribution of the number (population) in range 0 to 3413.
 
 ![Alternative Text](assets/images/Findings Q5.png)
 
-•	**Finding the immigration distribution for Denmark, Norway, and Sweden for years 1980 - 2013.**   
+• **Finding the immigration distribution for Denmark, Norway, and Sweden for years 1980 - 2013.**   
 
-		**Insight:** Norway have highest immigration distribution. 
+**Insight:** Norway have highest immigration distribution. 
 
 ![Alternative Text](assets/images/Findings Q6.png) 
 
-•	**Comparing the number of Icelandic immigrants (country = 'Iceland') to Canada from year 1980 to 2013.**   
+• **Comparing the number of Icelandic immigrants (country = 'Iceland') to Canada from year 1980 to 2013.**   
 
-		**Insight:** We can that financial crisis in between 2008 - 2012.
+**Insight:** We can that financial crisis in between 2008 - 2012.
 
 ![Alternative Text](assets/images/Findings Q7.png)  
 
-•	**Exploring the proportion (percentage) of new immigrants grouped by continents for the entire time period from 1980 to 2013.**   
+• **Exploring the proportion (percentage) of new immigrants grouped by continents for the entire time period from 1980 to 2013.**   
 
-		**Insight:** We can clearly see the percentage of immigrants grouped by continents.
+**Insight:** We can clearly see the percentage of immigrants grouped by continents.
 
 ![Alternative Text](assets/images/Findings Q8.png 
 
-•	**Performing a side by side comparison of the box plot with the line plot of China and India's immigration.**   
+• **Performing a side by side comparison of the box plot with the line plot of China and India's immigration.**   
 
-		**Insight:** We can see the ranges in box plot and difference in line chart.
+**Insight:** We can see the ranges in box plot and difference in line chart.
 
 ![Alternative Text](assets/images/Findings Q9.png 
 
-•	**Ploting to visualize the distribution of the top 15 countries (based on total immigration) grouped by the decades 1980s, 1990s, and 2000s.**   
+• **Ploting to visualize the distribution of the top 15 countries (based on total immigration) grouped by the decades 1980s, 1990s, and 2000s.**   
 
-		**Insight:** We can see the difference in each 10 years.
+**Insight:** We can see the difference in each 10 years.
 
 ![Alternative Text](assets/images/Findings Q10.png 
 
-•	**Visualizing the trend of total immigrantion to Canada (all countries combined) for the years 1980 - 2013 using scatter plot.**   
+• **Visualizing the trend of total immigrantion to Canada (all countries combined) for the years 1980 - 2013 using scatter plot.**   
 
-		**Insight:** We can clearly observe an upward trend in the data: as the years go by, the total number of immigrants increases.
+**Insight:** We can clearly observe an upward trend in the data: as the years go by, the total number of immigrants increases.
 
 ![Alternative Text](assets/images/Findings Q11.png
 
-•	**Creating our own Choropleth map of the world depicting immigration from various countries to Canada.**   
+• **Creating our own Choropleth map of the world depicting immigration from various countries to Canada.**   
 
-		**Insight:** Very few have less than 100 count.
+**Insight:** Very few have less than 100 count.
 
 ![Alternative Text](assets/images/Findings Q12.png 
 
