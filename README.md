@@ -1,7 +1,8 @@
 # Canada Immigration Analysis
 
 ## Introduction
-	The project focuses on exploring and pre-processing a dataset detailing immigration to Canada, with the primary objective of gaining insights into immigration trends and demographics. 
+	The project focuses on exploring and pre-processing a dataset detailing immigration to Canada, with the primary objective of gaining insights 
+ into immigration trends and demographics. 
  This involves cleaning and transforming the data, conducting exploratory data analysis (EDA), and visualizing key insights using Pandas and Matplotlib. 
  Through these efforts, the project seeks to provide a clearer understanding of the patterns and characteristics of immigration to Canada.
  
@@ -176,7 +177,8 @@ The findings offer valuable insights into the demographics and dynamics of immig
 The project adheres to professional data analysis standards, ensuring accuracy, clarity, and thorough documentation of the entire process.
  
 ## Recommended Analysis
-	Future analyses could expand on this project by integrating additional datasets, such as economic indicators, employment rates, and educational backgrounds of immigrants, to provide a more nuanced understanding of the factors influencing immigration trends. 
+	Future analyses could expand on this project by integrating additional datasets, such as economic indicators, employment rates, and educational backgrounds of immigrants, 
+ to provide a more nuanced understanding of the factors influencing immigration trends. 
 Further exploration into regional and provincial differences in immigration patterns could also offer localized insights. 
 Additionally, applying machine learning techniques for predictive modeling could help forecast future immigration trends based on historical data, providing valuable foresight for planning and policy development.
  
