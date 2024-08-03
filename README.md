@@ -81,7 +81,7 @@ o Customizing plots with titles, labels, legends, and color schemes to enhance c
 
 ### 5. Plotting in Pandas
 
-• Utilizing Pandas' built-in plotting capabilities to quickly generate visualizations directly from DataFrames. This includes:
+Utilizing Pandas' built-in plotting capabilities to quickly generate visualizations directly from DataFrames. This includes:
 
 o Line Plots: To show changes in immigration trends over time.
 
@@ -129,7 +129,7 @@ o Histograms: To display the distribution of immigration numbers.
 
 • **Comparing the number of Icelandic immigrants (country = 'Iceland') to Canada from year 1980 to 2013.**   
 
-**Insight:** We can that financial crisis in between 2008 - 2012.
+**Insight:** We can see that financial crisis in between 2008 - 2012.
 
 ![Alternative Text](assets/images/Findings Q7.png)  
 
